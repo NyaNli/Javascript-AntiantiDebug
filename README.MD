@@ -1,0 +1,6 @@
+# Javascript 屏蔽反调试
+
+用于屏蔽网站的一些反调试脚本，例如控制台输出包含特定getter的div，或者用setInterval循环调用debugger这种的  
+如果debugger因为各种原因没有被屏蔽，可以用banCurrentDebugger手动屏蔽当前执行的setInterval或setTimeout的handler  
+有很多修起来很麻烦的bug，不推荐使用  
+请勿用在违反法律的地方  

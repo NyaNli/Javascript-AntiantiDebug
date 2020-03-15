@@ -1,0 +1,18 @@
+{
+    "name": "反·反调试",
+    "version": "2020",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["http://*/*","https://*/*"],
+          "js": ["bg.js"],
+          "run_at": "document_start",
+          "all_frames": true
+        }
+    ],
+    "permissions":
+    [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
